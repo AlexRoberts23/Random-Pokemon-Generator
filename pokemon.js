@@ -95,7 +95,6 @@ function getTypes(data){
     return types;
 }
 
-//make function that directly changes color of background based on pokemon types
 /**
  * Sets the color of the background and border based on the type(s) of the requested pokemon
  * @param {array} types 
