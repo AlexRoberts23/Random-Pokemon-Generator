@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Random Pokemon Generator</title>
+        <link rel="stylesheet" href="pokemon.css">
+    </head>
+    <body>
+        <div id="pokemon">
+            <div id="pokemonHeader">
+                <h1 id="pokemonName">Name</h1>
+                <h2 id="pokemonID">ID</h2>
+            </div>
+            <img src="" alt="" id="pokemonImage">
+            <ul id="pokemonTypes">
+                <li id="type1">Type1</li>
+                <li id="type2">Type2</li>
+            </ul>
+            <hr>
+            <h2 id="pokemonGen">Generation (Region)</h2>
+        </div>
+        <button type="button" class="button" onclick="getPokeData()">Get New Pokemon!</button>
+        <div id="background"></div>
+        <script src="pokemon.js"></script>
+    </body>
+</html>
